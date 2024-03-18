@@ -5,20 +5,20 @@
  }
  
  .aside1 {
-    background-color: red;
+    
     flex: 1;
     flex-grow: 1;
     min-width: 22%;
 
  }
- main {
-    background-color: blue;
+main {
     flex: 1;
     flex-grow: 5 ;
     min-width: 55%;
+
+    
  }
  
-
  .aside2 {
     background-color: green;
     flex: 1;

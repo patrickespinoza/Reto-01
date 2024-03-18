@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Reto-01",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Reto-01",
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -2,6 +2,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   display: flex;
+  background-color: rgb(245, 245, 245);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -37,14 +39,12 @@ nav {
 }
 
 .aside1 {
-  background-color: red;
   flex: 1;
   flex-grow: 1;
   min-width: 22%;
 }
 
 main {
-  background-color: blue;
   flex: 1;
   flex-grow: 5;
   min-width: 55%;
@@ -55,4 +55,92 @@ main {
   flex: 1;
   flex-grow: 2;
   min-width: 25%;
+}
+
+.inline {
+  display: flex;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.container3 img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  background-color: white;
+}
+.logo img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  top: 35px;
+  display: inline-flex;
+}
+.logo .title {
+  display: flex;
+  text-align: center;
+  margin: auto 40px;
+}
+.logo #grande {
+  display: flex;
+  text-align: center;
+  margin: auto 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 170%;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#space {
+  display: flex;
+  text-align: center;
+  margin: auto 40px;
+}
+#space .col1 {
+  padding-right: 20px;
+}
+#space .col2 {
+  padding-right: 20px;
+}
+#space .col3 {
+  padding-right: 20px;
+}
+
+.reactions {
+  display: flex;
+  text-align: center;
+  margin: 10px -260px;
+  justify-content: space-between;
+}
+.reactions img {
+  display: flex;
+  top: 15px;
+  padding-right: 10px;
+}
+.reactions .like {
+  padding-right: 30px;
+  top: 15px;
+}
+.reactions .comment {
+  top: 15px;
+  padding-left: 0px;
+}
+
+.reactions-img {
+  border: 10px solid red;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
