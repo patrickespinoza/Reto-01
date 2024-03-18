@@ -1,0 +1,109 @@
+.container3 {
+    background-color: white;
+    display: flex;
+       
+   .logo1 {
+    
+    text-align: center;
+    font-size: 30px;
+    margin-right: 70px;
+
+   }
+       
+    }
+
+    .link1 {
+       a {
+        text-align: center;
+        box-sizing: border-box;
+        display: block;
+        margin-right: 30px;
+        margin-top: 20px;
+        border: 1px solid red;
+       
+        
+
+       } 
+
+       .acreate {
+        border-width: 1px;
+        border-color: blue;
+        
+       }
+
+       .alog {
+        border-color: white;
+       }
+
+
+       }
+
+   
+
+       .default-navigation-links {
+        
+            
+        svg {
+            
+            width: 40px;
+        }
+       
+      }
+
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #0f0f0f;
+      }
+
+      .flex-box {
+        img {
+            
+            width: 40px;
+            
+        }
+        
+      }
+.scroll {
+
+
+      h1 {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        font-size: 30px;
+        
+      }
+   
+      nav {
+        width: 339px;
+        padding: 5px;
+       
+      }
+      scroll-container {
+        display: block;
+        width: 300px;
+        height: 500px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        
+      }
+      scroll-page {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        height: 70px;
+        font-size: 25px;
+      }
+    }
