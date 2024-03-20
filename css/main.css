@@ -192,6 +192,7 @@ main {
 }
 
 .flex-box img {
+  display: inline-block;
   width: 40px;
 }
 
